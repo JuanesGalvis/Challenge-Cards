@@ -69,7 +69,7 @@ body
 /* BLOQUE */
 .Grid
 {
-    width: 90%;
+    width: 87%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,6 +78,7 @@ body
     height: 435px;
     position: relative;
     margin-bottom: 45px;
+    margin-top: 30px;
 }
 
 .Grid__Card--1
@@ -89,7 +90,7 @@ body
     position: absolute;
     top: 0;
     left: 35%;
-    box-shadow: -1px 10px 20px 20px #DAE1EB;
+    border-bottom: 3px solid #DAE1EB;
 }
 
 .Grid__Card--2
@@ -100,7 +101,7 @@ body
     justify-content: center;
     position: absolute;
     left: 0;
-    box-shadow: -1px 10px 20px 20px #DAE1EB;
+    border-bottom: 3px solid #DAE1EB;
 }
 
 .Grid__Card--3
@@ -111,7 +112,7 @@ body
     justify-content: center;
     position: absolute;
     right: 0;
-    box-shadow: -1px 10px 20px 20px #DAE1EB;
+    border-bottom: 3px solid #DAE1EB;
 }
 
 .Grid__Card--4
@@ -122,7 +123,7 @@ body
     justify-content: center;
     position: absolute;
     bottom: 0;
-    box-shadow: -1px 10px 20px 20px #DAE1EB;
+    border-bottom: 3px solid #DAE1EB;
     left: 35%;
 }
 
