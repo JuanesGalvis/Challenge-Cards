@@ -47,6 +47,7 @@ body
 {
     padding: 10px 25px;
     width: 300px;
+    background-color: white;
 }
 
 .Card h4
@@ -88,7 +89,7 @@ body
     position: absolute;
     top: 0;
     left: 35%;
-    box-shadow: -1px 10px 20px 20px #DAE1EB
+    box-shadow: -1px 10px 20px 20px #DAE1EB;
 }
 
 .Grid__Card--2
@@ -99,7 +100,7 @@ body
     justify-content: center;
     position: absolute;
     left: 0;
-    box-shadow: -1px 10px 20px 20px #DAE1EB
+    box-shadow: -1px 10px 20px 20px #DAE1EB;
 }
 
 .Grid__Card--3
@@ -110,7 +111,7 @@ body
     justify-content: center;
     position: absolute;
     right: 0;
-    box-shadow: -1px 10px 20px 20px #DAE1EB
+    box-shadow: -1px 10px 20px 20px #DAE1EB;
 }
 
 .Grid__Card--4
@@ -121,7 +122,8 @@ body
     justify-content: center;
     position: absolute;
     bottom: 0;
-    box-shadow: -1px 10px 20px 20px #DAE1EB
+    box-shadow: -1px 10px 20px 20px #DAE1EB;
+    left: 35%;
 }
 
 .Card span{
