@@ -1,0 +1,129 @@
+/* FUENTES */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+
+body
+{
+    background-color: #FAFAFA;
+    padding: 0;
+    margin: 0;
+}
+
+.Texto
+{
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+.Texto__firstTitle
+{
+    font-size: 34px;
+    font-weight: 200;
+}
+
+.Texto__secontTitle
+{
+    font-size: 34px;
+    font-weight: 600;
+    margin-top: -30px;
+    color: hsl(234, 12%, 34%);
+}
+
+.Texto__descripcion
+{
+    font-size: 18px;
+    width: 50%;
+    margin: 0 auto;
+    font-weight: 200;
+    margin-top: -16px;
+    color: hsl(229, 6%, 66%);
+    padding-bottom: 46px;
+}
+
+.Card
+{
+    padding: 10px 25px;
+    width: 300px;
+}
+
+.Card h4
+{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    color: hsl(234, 12%, 34%);
+}
+
+.Card p
+{
+    font-family: 'Poppins';
+    font-size: 13px;
+    color: hsl(229, 6%, 66%);
+    margin-top: -20px;
+}
+
+/* BLOQUE */
+.Grid
+{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    height: 435px;
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.Grid__Card--1
+{
+    border-top: 3px solid hsl(0, 78%, 62%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 35%;
+    box-shadow: -1px 10px 20px 20px #DAE1EB
+}
+
+.Grid__Card--2
+{
+    border-top: 3px solid hsl(180, 62%, 55%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    box-shadow: -1px 10px 20px 20px #DAE1EB
+}
+
+.Grid__Card--3
+{
+    border-top: 3px solid hsl(212, 86%, 64%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    box-shadow: -1px 10px 20px 20px #DAE1EB
+}
+
+.Grid__Card--4
+{
+    border-top: 3px solid hsl(34, 97%, 64%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    box-shadow: -1px 10px 20px 20px #DAE1EB
+}
+
+.Card span{
+    text-align: right;
+}

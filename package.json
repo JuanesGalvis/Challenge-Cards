@@ -1,0 +1,27 @@
+{
+  "name": "card-feature-section",
+  "version": "1.0.0",
+  "description": "Challenge de la página Frotend Master (HTML y CSS)",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanesGalvis/Challenge-Cards.git"
+  },
+  "keywords": [
+    "HTML5",
+    "CSS3"
+  ],
+  "author": "Juan Galvis <juangalvis.sh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JuanesGalvis/Challenge-Cards/issues"
+  },
+  "homepage": "https://github.com/JuanesGalvis/Challenge-Cards#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
