@@ -127,3 +127,34 @@ body
 .Card span{
     text-align: right;
 }
+
+@media screen and (max-width: 400px)
+{
+    .Texto
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    .Grid
+    {
+        width: 80%;
+        flex-direction: column;
+        height: 900px;
+        margin: 0;
+    }
+
+    .Grid__Card--1, .Grid__Card--2, .Grid__Card--3, .Grid__Card--4
+    {
+        display: block;
+        position: static;
+        width: 100%;
+        box-shadow: none;
+        margin: 0 auto;
+    }
+
+    .Grid span
+    {
+        display: block;
+    }
+}
